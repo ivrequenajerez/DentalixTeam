@@ -50,6 +50,7 @@ public class Cita extends JPanel {
 	int separacionVertical = 95;
 	int contadorClics;
 	ImageIcon icono = new ImageIcon("images/nombre_de_tu_imagen.png");
+	JLabel labelCita;
 	
 	/**
 	 * Create the panel.
@@ -385,6 +386,7 @@ public class Cita extends JPanel {
 	}
 	
 	public JLabel getLabelCita() {
+		
 		return labelCita;
 	}
 

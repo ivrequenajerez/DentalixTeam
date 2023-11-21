@@ -22,7 +22,7 @@ public class ConectorBBDD {
 	// Variables
 	String url = "jdbc:mysql://localhost:3306/dentilax";
 	String usuario = "root";
-	String contrasenia = "pass";
+	String contrasenia = "1234";
 	private Connection conexion; // Conexión
 	PreparedStatement preparedStatement = null;
 	ResultSet resultSet = null;
